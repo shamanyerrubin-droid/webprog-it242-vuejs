@@ -3,12 +3,37 @@
 <head>
   <title>My first Vue page</title>
   <link rel="stylesheet" href="css/style.css?version=0.1">
+  <link rel="stylesheet" href="css/flexbox-grid.css">
 </head>
 <body>
+    <div class="container">
+        <img src="https://media.licdn.com/dms/image/v2/D5603AQGwVNtUh_xY1g/profile-displayphoto-crop_800_800/B56ZoNOlgJI4AI-/0/1761158519640?e=1766620800&v=beta&t=zGZOXLFBHJqt1LHIBOw-0FMFjq2y54B7l3Iq1ozDTrY">
+        
+        <h2>About Me</h2>
+        <p>Hello! I am Rubin Lukongo, currently working at AECOM as part of the French Service Delivery team. I am passionate about delivering high-quality services, improving processes, and enhancing customer experience. I also enjoy learning new technologies and exploring modern web development techniques.</p>
+    </div>
 
-<h1>Vue Example</h1>
+    <div class="container">
+        <h2>Skills</h2>
+        <ul>
+            <li>French Service Delivery</li>
+            <li>Process Improvement & Optimization</li>
+            <li>Client Relationship Management</li>
+            <li>Communication & Team Collaboration</li>
+            <li>Basic HTML & CSS</li>
+        </ul>
+    </div>
 
-<p>The message is taken from 'data' inside the Vue instance by writing {{ message }} inside the div with id="app".</p>
+    <div class="container contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com" target="_blank">linkedin.com/in/yourprofile</a></p>
+        <p>GitHub: <a href="https://github.com" target="_blank">github.com/yourprofile</a></p>
+    </div>
+
+    <footer>
+        &copy; 2025 Rubin Lukongo. All rights reserved.
+    </footer>
 
 <div id="app">
   {{ message }}
